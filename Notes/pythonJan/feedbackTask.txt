@@ -1,0 +1,38 @@
+# Task
+# user to input a list of names and auto generate a file with the following template
+
+# " General comments
+# Charles has good knowledge of programming principles and did well in this module. 
+# He contributed to group discussion/questions and worked well in groups.  
+
+# Learner Punctuality and engagement 
+# Charles was always punctual throughout the module and engaged well with camera on. 
+
+# Recommendations on further learning
+# Continue to practice and explore good code design and start to specialise in 
+# areas of interest. " 
+
+# prompt the user for scores in the following areas (at least 2):
+# 1 - understanding level (1-5)
+# 2 - contribution level
+# 3 - lab completion level
+# 4 - engagement level
+# 5 - punctualilty level
+# 6 - further learning level
+
+# hints:
+# dictionary to map scores to descriptive words
+# work iteratively
+# template (string) 
+#  eg. "General Comments: \n {name} did {map[understanding level]} in this module. /n"
+#   template += "Engagement and Punctuality \n {name}....."
+#   template += "....."
+
+# output:
+# individual files for each student (student name is file name)
+# optional - in its own directory
+
+# optional additional task:
+# open the file for editing in a text editor for last minut changes/ approval
+# MVP
+
