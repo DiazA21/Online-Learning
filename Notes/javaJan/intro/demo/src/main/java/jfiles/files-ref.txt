@@ -1,0 +1,14 @@
+Files
+
+filereader + buffered reader
+
+filereader
+- reads directly from the character stream from filereader
+- reads a file as chars
+- inefficient for larger Files
+
+buffered reader
+- wraps around another reader 
+- efficient for large amounts of data as is buffered
+- gives us commands like readline(), writeline() etc.
+
